@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="8" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="57">
+ <imagelayer id="3" name="bg">
+  <image source="../image/bg/5.png" width="256" height="224"/>
+ </imagelayer>
+ <objectgroup id="4" name="collision">
+  <object id="1" x="-16" y="0" width="16" height="224">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="2" x="0" y="193" width="256" height="5">
+   <properties>
+    <property name="tag" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="40" x="112" y="33" width="32" height="5">
+   <properties>
+    <property name="tag" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="41" x="33" y="97" width="63" height="5">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="3" x="256" y="0" width="14" height="207">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="4" x="96" y="64" width="16" height="6">
+   <properties>
+    <property name="tag" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="49" x="143" y="64" width="16" height="6">
+   <properties>
+    <property name="tag" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="5" x="0" y="129" width="63" height="5">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="35" x="193" y="129" width="63" height="5">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="6" x="32" y="161" width="80" height="6">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="34" x="143" y="161" width="80" height="6">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="9" x="159" y="97" width="64" height="5">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="10" x="33" y="33" width="79" height="6">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="51" x="144" y="33" width="79" height="6">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="15" x="0" y="65" width="63" height="6">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="48" x="193" y="65" width="63" height="6">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="16" x="137" y="143" width="6" height="18">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="36" x="112" y="143" width="6" height="18">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="17" x="96" y="64" width="6" height="33">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="50" x="153" y="64" width="6" height="33">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="39" x="97" y="111" width="6" height="32">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="47" x="153" y="111" width="6" height="32">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="37" x="137" y="47" width="6" height="17">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="38" x="113" y="47" width="6" height="17">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="30" x="0" y="175" width="7" height="15">
+   <properties>
+    <property name="tag" type="int" value="512"/>
+   </properties>
+  </object>
+  <object id="31" x="249" y="176" width="7" height="14">
+   <properties>
+    <property name="tag" type="int" value="512"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="enemy">
+  <object id="52" type="enemy5" x="80" y="87">
+   <point/>
+  </object>
+  <object id="53" type="enemy5" x="176" y="89">
+   <point/>
+  </object>
+  <object id="54" type="enemy5" x="223" y="120">
+   <point/>
+  </object>
+  <object id="55" type="enemy5" x="33" y="120">
+   <point/>
+  </object>
+  <object id="56" type="enemy5" x="64" y="152">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="player">
+  <object id="13" type="player" x="80" y="183">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="8" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="47">
+ <imagelayer id="3" name="bg">
+  <image source="../image/bg/4.png" width="256" height="224"/>
+ </imagelayer>
+ <objectgroup id="4" name="collision">
+  <object id="1" x="-16" y="0" width="16" height="224">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="2" x="0" y="193" width="256" height="5">
+   <properties>
+    <property name="tag" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="40" x="224" y="129" width="32" height="5">
+   <properties>
+    <property name="tag" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="41" x="0" y="129" width="32" height="5">
+   <properties>
+    <property name="tag" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="3" x="256" y="0" width="14" height="207">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="4" x="47" y="97" width="16" height="6">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="5" x="32" y="129" width="79" height="5">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="35" x="145" y="129" width="79" height="5">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="6" x="31" y="161" width="80" height="6">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="34" x="145" y="161" width="80" height="6">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="9" x="113" y="97" width="96" height="5">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="10" x="80" y="32" width="143" height="6">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="15" x="33" y="65" width="142" height="6">
+   <properties>
+    <property name="tag" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="16" x="225" y="143" width="6" height="18">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="36" x="25" y="143" width="6" height="18">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="17" x="41" y="80" width="6" height="16">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="39" x="33" y="65" width="6" height="38">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="37" x="209" y="47" width="6" height="50">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="38" x="217" y="32" width="6" height="70">
+   <properties>
+    <property name="tag" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="30" x="0" y="175" width="7" height="15">
+   <properties>
+    <property name="tag" type="int" value="512"/>
+   </properties>
+  </object>
+  <object id="31" x="249" y="176" width="7" height="14">
+   <properties>
+    <property name="tag" type="int" value="512"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="enemy">
+  <object id="42" type="enemy4" x="144" y="24">
+   <point/>
+  </object>
+  <object id="43" type="enemy4" x="80" y="57">
+   <point/>
+  </object>
+  <object id="44" type="enemy4" x="192" y="88">
+   <point/>
+  </object>
+  <object id="46" type="enemy4" x="47" y="152">
+   <point/>
+  </object>
+  <object id="45" type="enemy4" x="208" y="152">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="player">
+  <object id="13" type="player" x="80" y="183">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
